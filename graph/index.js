@@ -25,7 +25,7 @@ g.addEdges('E', 'G', 28);
 g.addEdges('F', 'G', 8);
 
 //Show Graph
-// console.log(g.showGraph())
+console.log('Graph: ', g.showGraph(), '\n')
 
 // Djikstra
 console.log('Djikstra: ', g.djikstra('B', 'G'), '\n')

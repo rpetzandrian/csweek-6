@@ -118,7 +118,7 @@ class Graph {
         // Semua terkoneksi / selesai,.. keluar rekursif
         currVertice = null
       } else {
-        // Push distance terkecil dan push percabangan,.. menambah node aktif,.. mengganti currVertice
+        // Push distance terkecil dan push percabangan,.. mengganti currVertice
         distances.push(distance)
         activeEdges.push([fromVertice, '->', toVertice])
         currVertice = toVertice
